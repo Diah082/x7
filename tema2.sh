@@ -34,11 +34,11 @@ res1() {
     wget https://raw.githubusercontent.com/diah082/x7/main/Cdy/menu1.zip
     wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/diah082/x7/main/Enc/encrypt" ; chmod +x /usr/bin/enc
     7z x -pas123@Newbie menu1.zip
-    chmod +x menu/*
-    enc menu/*
-    mv menu/* /usr/local/sbin
-    rm -rf menu
-    rm -rf menu.zip
+    chmod +x menu1/*
+    enc menu1/*
+    mv menu1/* /usr/local/sbin
+    rm -rf menu1
+    rm -rf menu1.zip
     rm -rf *.sh*
     rm -rf /usr/local/sbin/*~
     rm -rf /usr/local/sbin/gz*
